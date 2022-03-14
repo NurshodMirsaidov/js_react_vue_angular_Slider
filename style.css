@@ -10,6 +10,7 @@
     height: 100vh;
     background: linear-gradient(45deg, #22046b, #e14e42);
     position: relative;
+    transition: all .5s linear;
 } 
 .container-fluid{
     width: 600px; 
@@ -64,6 +65,7 @@
     top: 55%;
     right: 50px;
     transform: translateY(-50%);
+    background: url(./thumb.png);
 }
 
 #line1,
@@ -76,7 +78,7 @@
     transform: translateX(-50%);
 }
 
-#active {
+.active {
     width: 5px;
     height: 80px;
     border-radius: 10px;
